@@ -7,7 +7,9 @@ import zipfile
 from datetime import datetime
 
 import tkinter as tk
-path = "b"
+from tkinter import filedialog
+
+path = filedialog.askdirectory()
 def function_start_Everything():
     global path
     current_datetime = datetime.now()
@@ -62,6 +64,7 @@ def function_start_Everything():
 window = tk.Tk()
 window.title("My GUI Window")  # Set the window title
 window.geometry("800x600")  # Set the window size (width x height)
+
 function_start_Everything()
 print("Função Iniciada")
 window.mainloop()  # Start the event loop
