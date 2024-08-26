@@ -31,8 +31,6 @@ def function_start_Everything():
     print("pasta: " + path)
 
 
-
-
     # fetch all files
     for file_name in os.listdir(source_folder):
         print(source_folder)
