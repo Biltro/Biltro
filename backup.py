@@ -57,7 +57,6 @@ def function_start_Everything():
         print(f"Error deleting folder '{folder_path}': {e.strerror}")
 
 
-
 window = tk.Tk()
 window.title("My GUI Window")  # Set the window title
 window.geometry("800x600")  # Set the window size (width x height)
