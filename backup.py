@@ -64,6 +64,3 @@ window.geometry("800x600")  # Set the window size (width x height)
 function_start_Everything()
 print("Função Iniciada")
 window.mainloop()  # Start the event loop
-
-
-
